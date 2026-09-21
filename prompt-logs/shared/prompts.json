@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "kind": "shared_examples",
+  "prompts": [
+    {
+      "id": "example-01",
+      "prompt": "Summarize a fictional workflow for sorting incoming support tickets into billing, technical, and general categories.",
+      "captured_at": "2026-09-21T10:40:00Z",
+      "session_id": "example-conversation-1",
+      "turn_id": "example-turn-1"
+    },
+    {
+      "id": "example-02",
+      "prompt": "Turn that fictional ticket workflow into five clear implementation steps. State assumptions before suggesting changes.",
+      "captured_at": "2026-09-21T10:41:00Z",
+      "session_id": "example-conversation-1",
+      "turn_id": "example-turn-2"
+    },
+    {
+      "id": "example-03",
+      "prompt": "Suggest three edge cases for the fictional ticket classifier, including an empty message and a ticket covering two topics.",
+      "captured_at": "2026-09-21T10:42:00Z",
+      "session_id": "example-conversation-1",
+      "turn_id": "example-turn-3"
+    },
+    {
+      "id": "example-04",
+      "prompt": "Write a small Python function that removes duplicate labels while preserving their original order. Use only made-up examples.",
+      "captured_at": "2026-09-21T10:43:00Z",
+      "session_id": "example-conversation-2",
+      "turn_id": "example-turn-4"
+    },
+    {
+      "id": "example-05",
+      "prompt": "Add unit tests for the label function covering empty input, repeated labels, and mixed capitalization.",
+      "captured_at": "2026-09-21T10:44:00Z",
+      "session_id": "example-conversation-2",
+      "turn_id": "example-turn-5"
+    },
+    {
+      "id": "example-06",
+      "prompt": "Review the example function for readability and explain one improvement without changing its behavior.",
+      "captured_at": "2026-09-21T10:45:00Z",
+      "session_id": "example-conversation-2",
+      "turn_id": "example-turn-6"
+    },
+    {
+      "id": "example-07",
+      "prompt": "Draft acceptance criteria for a demo dashboard that fetches synthetic prompt logs from GitHub.",
+      "captured_at": "2026-09-21T10:46:00Z",
+      "session_id": "example-conversation-3",
+      "turn_id": "example-turn-7"
+    },
+    {
+      "id": "example-08",
+      "prompt": "Explain how the demo should handle an unavailable GitHub API, including retry messaging and preservation of previously fetched records.",
+      "captured_at": "2026-09-21T10:47:00Z",
+      "session_id": "example-conversation-3",
+      "turn_id": "example-turn-8"
+    },
+    {
+      "id": "example-09",
+      "prompt": "Summarize the demo results in a short checklist. Clearly state that all sample prompts are synthetic and do not represent a real user's work.",
+      "captured_at": "2026-09-21T10:48:00Z",
+      "session_id": "example-conversation-3",
+      "turn_id": "example-turn-9"
+    }
+  ]
+}
